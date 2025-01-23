@@ -46,7 +46,7 @@ const Profile = () => {
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Date Of Birth : </p>
-                  <p className="text-gray-500">{"25/09/2000"} </p>
+                  <p className="text-gray-500">{"14/11/2005"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Nationality : </p>
@@ -56,11 +56,11 @@ const Profile = () => {
               <div className="space-y-7">
                 <div className="flex">
                   <p className="w-[9rem]">Address : </p>
-                  <p className="text-gray-500">{"Chennai"} </p>
+                  <p className="text-gray-500">{"Address"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">City : </p>
-                  <p className="text-gray-500">{"Tamil Nadu"} </p>
+                  <p className="text-gray-500">{"Chennai"} </p>
                 </div>
                 <div className="flex">
                   <p className="w-[9rem]">Postcode : </p>
@@ -121,7 +121,7 @@ const Profile = () => {
               </div>
               {/* <div className="flex items-center">
                 <p className="w-[8rem]">Mobile :</p>
-                <p>+918455050970</p>
+                <p>+918987667899</p>
               </div> */}
               <div className="flex items-center">
                 <p className="w-[8rem]">Password :</p>
@@ -154,7 +154,7 @@ const Profile = () => {
                     <VerifiedIcon /> <span>verified</span>
                   </Badge>
                 ) : (
-                  <Badge className="bg-orange-500">enabled</Badge>
+                  <Badge className="bg-orange-500">pending</Badge>
                 )}
               </div>
             </CardHeader>
@@ -165,7 +165,7 @@ const Profile = () => {
               </div>
               <div className="flex items-center">
                 <p className="w-[8rem]">Mobile :</p>
-                <p>+91 8455050970</p>
+                <p>+918455050970</p>
               </div>
               <div>
                 <Dialog>
